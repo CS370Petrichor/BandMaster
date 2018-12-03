@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">BaseApplication</string>
+    <string name="app_name">BandMaster</string>
+    <string name="new_song">New Song</string>
+    <string name="button_text">Create a Song</string>
+    <string name="guitar">Guitar</string>
+    <string name="drums">Drums</string>
+    <string name="bass">Bass</string>
+    <string name="keyboard">Keyboard</string>
 </resources>

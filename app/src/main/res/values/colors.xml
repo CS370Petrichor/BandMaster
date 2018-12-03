@@ -3,4 +3,20 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!-- purple style gradient -->
+    <color name="purplestartcolor">#9100f4</color>
+    <color name="purpleendcolor">#f800d0</color>
+
+    <!-- blue style gradient -->
+    <color name="bluestartcolor">#5184cc</color>
+    <color name="blueendcolor">#02f7fb</color>
+
+    <!-- pink style gradient -->
+    <color name="pinkstartcolor">#fd1dc6</color>
+    <color name="pinkendcolor">#ff9fe8</color>
+
+    <!-- green style gradient -->
+    <color name="greenstartcolor">#2ec08a</color>
+    <color name="greenendcolor">#7be7a1</color>
 </resources>

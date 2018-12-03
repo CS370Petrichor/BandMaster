@@ -16,6 +16,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NewSong"
+            android:label="@string/new_song" />
+        <activity
+            android:name=".GuitarActivity"
+            android:label="@string/guitar" />
+        <activity
+            android:name=".DrumActivity"
+            android:label="@string/drums" />
+        <activity
+            android:name=".BassActivity"
+            android:label="@string/bass" />
+        <activity
+            android:name=".KeyboardActivity"
+            android:label="@string/keyboard" />
     </application>
 
 </manifest>
