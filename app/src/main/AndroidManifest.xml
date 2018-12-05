@@ -20,8 +20,8 @@
             android:name=".NewSong"
             android:label="@string/new_song" />
         <activity
-            android:name=".GuitarActivity"
-            android:label="@string/guitar" />
+            android:name=".SequencerActivity"
+            android:label="@string/sequencer" />
         <activity
             android:name=".DrumActivity"
             android:label="@string/drums" />

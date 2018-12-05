@@ -13,8 +13,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/guitar_button"
-            android:text="@string/guitar"/>
+            android:id="@+id/sequencer_button"
+            android:text="@string/sequencer"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

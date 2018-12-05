@@ -16,11 +16,11 @@ public class NewSong extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_song);
-        button1=(Button)findViewById(R.id.guitar_button);
+        button1=(Button)findViewById(R.id.sequencer_button);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(NewSong.this, GuitarActivity.class); startActivity(intent);
+                Intent intent = new Intent(NewSong.this, SequencerActivity.class); startActivity(intent);
             } });
         button2=(Button)findViewById(R.id.drum_button);
         button2.setOnClickListener(new View.OnClickListener() {
