@@ -21,7 +21,8 @@
             android:label="@string/new_song" />
         <activity
             android:name=".SequencerActivity"
-            android:label="@string/sequencer" />
+            android:label="@string/sequencer"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".DrumActivity"
             android:label="@string/drums" />
@@ -30,7 +31,8 @@
             android:label="@string/bass" />
         <activity
             android:name=".KeyboardActivity"
-            android:label="@string/keyboard" />
+            android:label="@string/keyboard"
+            android:screenOrientation="landscape"/>
     </application>
 
 </manifest>

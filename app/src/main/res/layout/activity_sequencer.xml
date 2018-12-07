@@ -4,6 +4,305 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="20dp"
     tools:context=".SequencerActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="Crash"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/crash1"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/crash2"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/crash3"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/crash4"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/crash5"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/crash6"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/crash7"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/crash8"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="Snare"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/snare1"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/snare2"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/snare3"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/snare4"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/snare5"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/snare6"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/snare7"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/snare8"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="Hihat"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/hihat1"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/hihat2"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/hihat3"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/hihat4"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/hihat5"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/hihat6"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/hihat7"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/hihat8"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="Kick"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/kick1"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/kick2"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/kick3"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/kick4"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/kick5"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/kick6"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/kick7"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/kick8"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/darkpurple" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

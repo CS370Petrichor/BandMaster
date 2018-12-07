@@ -19,4 +19,8 @@
     <!-- green style gradient -->
     <color name="greenstartcolor">#2ec08a</color>
     <color name="greenendcolor">#7be7a1</color>
+
+    <color name="darkpurple">#2b2b4b</color>
+    <color name="lightpurple">#4a4a80</color>
+
 </resources>
